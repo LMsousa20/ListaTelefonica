@@ -1,10 +1,6 @@
-.meu-css-button{
-      
+.meu-css-button{  
     display: flex;
     justify-content: end;
-    
-   
-
 }
 
 .header{
@@ -12,12 +8,10 @@
     border: 1px solid rgba(71, 71, 71, 0.1);
     display: flex;
     justify-content: space-between;
-
 }
 
 .avatar{
     size:10px;
-    background-color: rgb(182, 0, 0);
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -27,4 +21,29 @@
     align-items: center;
     font-weight: 600;
     font-size: x-large;
+}
+
+.avatarb{
+    font-weight: 600; 
+}
+ 
+#posicionamentoErro{
+    width: 95vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading{
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: 30%;
+    top: 25%;
+    display: none;
+    background-color: aliceblue;
+    border-radius: 40%;
+    
+    
 }
