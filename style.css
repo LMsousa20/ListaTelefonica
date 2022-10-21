@@ -37,13 +37,16 @@
 
 #loading{
     position: fixed;
+    width: 100vw;
+    height: 60vh;
+    display: none;
+    justify-content: center;
+    align-items: center;    
+}
+
+#loadingGif{
     width: 150px;
     height: 150px;
-    left: 30%;
-    top: 25%;
-    display: none;
     background-color: aliceblue;
-    border-radius: 40%;
-    
-    
+    border-radius: 40%;  
 }
