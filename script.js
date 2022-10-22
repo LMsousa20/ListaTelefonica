@@ -101,6 +101,8 @@ async function consulta() {
 }
 
 function rederizar(listaRenderizada) {
+    console.log(listaRenderizada.length)
+    count.innerHTML=`${listaRenderizada.length}`
 
     listaRenderizada.forEach((i) => {
         corAleatoria += 1;
