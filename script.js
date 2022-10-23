@@ -21,7 +21,7 @@ function verificandoLogin() {
 }
 
 function login() {
-    if (loginSenha.value === '1234') {
+    if (loginSenha.value === 'senha') {
         localStorage.setItem('logado', loginUser.value)
         consulta()
         $('#ModalLogin').modal('hide');
@@ -101,6 +101,8 @@ async function consulta() {
 }
 
 function rederizar(listaRenderizada) {
+    console.log(listaRenderizada.length)
+    count.innerHTML=`${listaRenderizada.length}`
 
     listaRenderizada.forEach((i) => {
         corAleatoria += 1;
